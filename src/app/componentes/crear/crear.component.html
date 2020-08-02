@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <form>
+            <div class="form-group">
+              <label>Nombre locacion</label>
+              <input [(ngModel)]="nombreLocation" name="nombreLocation" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Area en M2</label>
+                <input [(ngModel)]="areaM2" name="areaM2" type="number" class="form-control">
+              </div>
+            <button type="submit" (click)="crear()" class="btn btn-primary">Crear</button>
+          </form>
+      </div>
+    </div>
+  </div>
+
